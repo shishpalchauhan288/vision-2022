@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+
+}
+
+body, html{
+    width: 100px;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+   }
+
+   header{
+       background-color: 120px;
+       background-color: blue;
+
+   }
+
+   .box {
+       width: 50%;
+       height: 140px;
+       float: left;
+
+   }
+   .box1{
+       background-color: yellow;
+
+   }
+
+   .box2{
+    background-color: pink;
+
+}
+
+.box3{
+    background-color: grey;
+
+}
+
+box3{
+    background-color: red;
+
+}
+
+   .clearfix{
+       clear: both;
+   }
