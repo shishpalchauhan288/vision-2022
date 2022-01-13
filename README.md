@@ -17,3 +17,8 @@ II/03/JANUARY-2022:  https://shishpalchauhan288.github.io/vision-2022/JANUARY/JA
  
  
  11/JAN/2022  https://shishpalchauhan288.github.io/vision-2022/JANUARY/JAN-11/PATTERN.HTML
+
+
+
+
+JAN/12/2022    https://shishpalchauhan288.github.io/vision-2022/
