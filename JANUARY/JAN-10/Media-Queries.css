@@ -1,53 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+
+body{
+    font-family: 'Open Sans-serif';
+}
+
 *{
-    margin:0px;
-
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav {
+    height: 100px;
+    background: #353636;
+}
+nav img {
+    width: 115px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+nav ul {
+    float: right;
+    margin-right: 25px;
 }
 
-body, html{
-    width: 100px;
-    height: 100%;
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
 }
 
-.container{
+nav ul li a {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+nav ul li a::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
     width: 100%;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #ccc;
-   }
-
-   header{
-       background-color: 120px;
-       background-color: blue;
-
-   }
-
-   .box {
-       width: 50%;
-       height: 140px;
-       float: left;
-
-   }
-   .box1{
-       background-color: yellow;
-
-   }
-
-   .box2{
-    background-color: pink;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
 
 }
 
-.box3{
-    background-color: grey;
+nav ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
 
 }
 
-box3{
-    background-color: red;
-
-}
-
-   .clearfix{
-       clear: both;
-   }
