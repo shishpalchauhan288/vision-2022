@@ -21,7 +21,7 @@ II/03/JANUARY-2022:     https://shishpalchauhan288.github.io/vision-2022/JANUARY
  07/JAN/Ist:           https://shishpalchauhan288.github.io/vision-2022/JANUARY/JAN-07/TRIANGLE.HTML
  
  
- 10/JAN:               https://shishpalchauhan288.github.io/vision-2022/
+ 10/JAN:               https://shishpalchauhan288.github.io/vision-2022/JANUARY/JAN-10/MEDIA-Q.HTML
  
  
  
